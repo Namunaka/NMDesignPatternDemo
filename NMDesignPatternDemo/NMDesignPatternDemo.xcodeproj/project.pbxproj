@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B162881F67BC99004174F3 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B162871F67BC99004174F3 /* BuilderViewController.m */; };
 		65DD5A721F6674C3003F9D31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A711F6674C3003F9D31 /* main.m */; };
 		65DD5A751F6674C3003F9D31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A741F6674C3003F9D31 /* AppDelegate.m */; };
 		65DD5A781F6674C3003F9D31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A771F6674C3003F9D31 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B162861F67BC99004174F3 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		65B162871F67BC99004174F3 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
 		65DD5A6D1F6674C3003F9D31 /* NMDesignPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMDesignPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD5A711F6674C3003F9D31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65DD5A731F6674C3003F9D31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6532F7D61F7CDBB4003FF9C4 /* 建造者(builder) */ = {
+			isa = PBXGroup;
+			children = (
+				65B162861F67BC99004174F3 /* BuilderViewController.h */,
+				65B162871F67BC99004174F3 /* BuilderViewController.m */,
+			);
+			name = "建造者(builder)";
+			sourceTree = "<group>";
+		};
 		65DD5A641F6674C3003F9D31 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +118,7 @@
 				65DD5A761F6674C3003F9D31 /* ViewController.h */,
 				65DD5A771F6674C3003F9D31 /* ViewController.m */,
 				65DD5A791F6674C3003F9D31 /* Main.storyboard */,
+				6532F7D61F7CDBB4003FF9C4 /* 建造者(builder) */,
 				65DD5A7C1F6674C3003F9D31 /* Assets.xcassets */,
 				65DD5A7E1F6674C3003F9D31 /* LaunchScreen.storyboard */,
 				65DD5A811F6674C3003F9D31 /* Info.plist */,
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B162881F67BC99004174F3 /* BuilderViewController.m in Sources */,
 				65DD5A781F6674C3003F9D31 /* ViewController.m in Sources */,
 				65DD5A751F6674C3003F9D31 /* AppDelegate.m in Sources */,
 				65DD5A721F6674C3003F9D31 /* main.m in Sources */,
