@@ -690,15 +690,24 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="builder_uml" translatesAutoresizingMaskIntoConstraints="NO" id="sii-Qf-SEU">
+                                <rect key="frame" x="47.666666666666657" y="464" width="280" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="MBl-9u-yWs"/>
+                                    <constraint firstAttribute="width" constant="280" id="eew-N8-mlw"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nu1-qP-muE" firstAttribute="leading" secondItem="2rP-Ls-eEQ" secondAttribute="leading" id="0q9-WF-nfG"/>
                             <constraint firstItem="648-dX-li0" firstAttribute="leading" secondItem="2rP-Ls-eEQ" secondAttribute="leading" constant="16" id="CZ6-tj-f8L"/>
+                            <constraint firstItem="sii-Qf-SEU" firstAttribute="top" secondItem="lWe-o3-Icf" secondAttribute="bottom" constant="8" id="IvA-rk-Nfk"/>
                             <constraint firstAttribute="trailing" secondItem="yRF-iG-JJz" secondAttribute="trailing" id="KUy-va-amW"/>
                             <constraint firstItem="lWe-o3-Icf" firstAttribute="leading" secondItem="2rP-Ls-eEQ" secondAttribute="leading" id="MZk-No-XYJ"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="648-dX-li0" secondAttribute="trailing" constant="20" symbolic="YES" id="Qv3-m8-PMS"/>
                             <constraint firstAttribute="trailing" secondItem="lWe-o3-Icf" secondAttribute="trailing" id="VDe-2q-QWo"/>
+                            <constraint firstItem="sii-Qf-SEU" firstAttribute="centerX" secondItem="2rP-Ls-eEQ" secondAttribute="centerX" id="Wyy-qJ-GCD"/>
                             <constraint firstItem="nu1-qP-muE" firstAttribute="top" secondItem="yRF-iG-JJz" secondAttribute="bottom" constant="8" id="ZZ0-e1-oRO"/>
                             <constraint firstItem="yRF-iG-JJz" firstAttribute="top" secondItem="4HM-yW-9nM" secondAttribute="bottom" constant="8" id="ZdV-fz-iPq"/>
                             <constraint firstItem="yRF-iG-JJz" firstAttribute="leading" secondItem="2rP-Ls-eEQ" secondAttribute="leading" id="bVV-qt-f57"/>
@@ -734,4 +743,7 @@
             <point key="canvasLocation" x="-532" y="638"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="builder_uml" width="279" height="124"/>
+    </resources>
 </document>

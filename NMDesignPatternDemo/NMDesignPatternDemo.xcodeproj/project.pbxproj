@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6532F7D91F7CE725003FF9C4 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7D81F7CE725003FF9C4 /* Character.m */; };
+		6532F7DC1F7CE86A003FF9C4 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7DB1F7CE86A003FF9C4 /* CharacterBuilder.m */; };
+		6532F7DF1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7DE1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m */; };
+		6532F7E21F7DE921003FF9C4 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7E11F7DE921003FF9C4 /* ChasingGame.m */; };
 		65B162881F67BC99004174F3 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B162871F67BC99004174F3 /* BuilderViewController.m */; };
 		65DD5A721F6674C3003F9D31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A711F6674C3003F9D31 /* main.m */; };
 		65DD5A751F6674C3003F9D31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A741F6674C3003F9D31 /* AppDelegate.m */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6532F7D71F7CE725003FF9C4 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		6532F7D81F7CE725003FF9C4 /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		6532F7DA1F7CE869003FF9C4 /* CharacterBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		6532F7DB1F7CE86A003FF9C4 /* CharacterBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		6532F7DD1F7CEE1E003FF9C4 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		6532F7DE1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		6532F7E01F7DE921003FF9C4 /* ChasingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		6532F7E11F7DE921003FF9C4 /* ChasingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
 		65B162861F67BC99004174F3 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
 		65B162871F67BC99004174F3 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
 		65DD5A6D1F6674C3003F9D31 /* NMDesignPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMDesignPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +98,14 @@
 			children = (
 				65B162861F67BC99004174F3 /* BuilderViewController.h */,
 				65B162871F67BC99004174F3 /* BuilderViewController.m */,
+				6532F7D71F7CE725003FF9C4 /* Character.h */,
+				6532F7D81F7CE725003FF9C4 /* Character.m */,
+				6532F7DA1F7CE869003FF9C4 /* CharacterBuilder.h */,
+				6532F7DB1F7CE86A003FF9C4 /* CharacterBuilder.m */,
+				6532F7DD1F7CEE1E003FF9C4 /* StandardCharacterBuilder.h */,
+				6532F7DE1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m */,
+				6532F7E01F7DE921003FF9C4 /* ChasingGame.h */,
+				6532F7E11F7DE921003FF9C4 /* ChasingGame.m */,
 			);
 			name = "建造者(builder)";
 			sourceTree = "<group>";
@@ -290,9 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B162881F67BC99004174F3 /* BuilderViewController.m in Sources */,
+				6532F7DC1F7CE86A003FF9C4 /* CharacterBuilder.m in Sources */,
+				6532F7D91F7CE725003FF9C4 /* Character.m in Sources */,
 				65DD5A781F6674C3003F9D31 /* ViewController.m in Sources */,
 				65DD5A751F6674C3003F9D31 /* AppDelegate.m in Sources */,
 				65DD5A721F6674C3003F9D31 /* main.m in Sources */,
+				6532F7DF1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m in Sources */,
+				6532F7E21F7DE921003FF9C4 /* ChasingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
