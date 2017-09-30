@@ -20,15 +20,15 @@
                         <sections>
                             <tableViewSection headerTitle="创建型" id="IYS-nQ-d2N">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Bzj-Qe-rOD">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Bzj-Qe-rOD">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bzj-Qe-rOD" id="40p-HY-qpc">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单例模式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhA-5w-QEf">
-                                                    <rect key="frame" x="55" y="12" width="70" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单例(Singleton)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhA-5w-QEf">
+                                                    <rect key="frame" x="55" y="12" width="118.66666666666666" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -40,6 +40,9 @@
                                                 <constraint firstItem="KhA-5w-QEf" firstAttribute="leading" secondItem="40p-HY-qpc" secondAttribute="leading" constant="55" id="lxu-T4-vVP"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="M3m-RO-sVw" kind="push" id="eeA-Yr-niG"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iWS-y8-AOc">
                                         <rect key="frame" x="0.0" y="72" width="375" height="44"/>
@@ -195,15 +198,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1tx-mr-diJ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="1tx-mr-diJ">
                                         <rect key="frame" x="0.0" y="408" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1tx-mr-diJ" id="coD-fq-pIf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="适配器" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gS1-Zd-79L">
-                                                    <rect key="frame" x="55" y="11.666666666666664" width="52" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="适配器(Adaptee)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gS1-Zd-79L">
+                                                    <rect key="frame" x="55" y="11.666666666666664" width="128.33333333333334" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -215,6 +218,9 @@
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gS1-Zd-79L" secondAttribute="trailing" constant="20" symbolic="YES" id="xI5-A1-FTB"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vwd-N3-9fc" kind="push" id="I7u-VT-OyH"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QeE-5j-neW">
                                         <rect key="frame" x="0.0" y="452" width="375" height="44"/>
@@ -530,7 +536,7 @@
             </objects>
             <point key="canvasLocation" x="420" y="638"/>
         </scene>
-        <!--Builder View Controller-->
+        <!--建造者(Builder)-->
         <scene sceneID="Wei-Yl-DAV">
             <objects>
                 <viewController id="Lhf-nm-gbk" customClass="BuilderViewController" sceneMemberID="viewController">
@@ -539,7 +545,7 @@
                         <viewControllerLayoutGuide type="bottom" id="UTe-RS-Y94"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2rP-Ls-eEQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="生成器模式：将一个复杂对象的构建与它的表现分离，使得同样的构建过程可以创建不同的表现" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yRF-iG-JJz">
@@ -685,7 +691,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* 详情代码在ViewController内" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="648-dX-li0">
-                                <rect key="frame" x="16" y="622" width="127" height="11"/>
+                                <rect key="frame" x="16" y="767" width="127" height="11"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -716,13 +722,50 @@
                             <constraint firstItem="UTe-RS-Y94" firstAttribute="top" secondItem="648-dX-li0" secondAttribute="bottom" id="xjt-40-vcY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="EM6-J7-k29"/>
+                    <navigationItem key="navigationItem" title="建造者(Builder)" id="EM6-J7-k29"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qFA-K7-3cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1317.5999999999999" y="327.70935960591135"/>
+        </scene>
+        <!--单例(Singleton)-->
+        <scene sceneID="wZa-8p-xhc">
+            <objects>
+                <viewController id="M3m-RO-sVw" customClass="SingletonViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zCk-PW-R5h"/>
+                        <viewControllerLayoutGuide type="bottom" id="vJS-P0-FOh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9i2-8y-IFC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="单例(Singleton)" id="NC7-bs-N91"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nun-tg-bWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2070" y="327"/>
+        </scene>
+        <!--适配器(Adaptee)-->
+        <scene sceneID="Zoq-17-AcT">
+            <objects>
+                <viewController id="vwd-N3-9fc" customClass="AdapteeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mqo-Y3-9bx"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hat-Vj-6PV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="To7-dy-FcO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="适配器(Adaptee)" id="ZAX-o9-7H0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1U6-Dm-vSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2844" y="327"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eeo-cK-XKR">

@@ -11,6 +11,8 @@
 		6532F7DC1F7CE86A003FF9C4 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7DB1F7CE86A003FF9C4 /* CharacterBuilder.m */; };
 		6532F7DF1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7DE1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m */; };
 		6532F7E21F7DE921003FF9C4 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7E11F7DE921003FF9C4 /* ChasingGame.m */; };
+		6532F7E61F7E3867003FF9C4 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7E51F7E3867003FF9C4 /* SingletonViewController.m */; };
+		6532F7E91F7E5CC6003FF9C4 /* AdapteeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532F7E81F7E5CC6003FF9C4 /* AdapteeViewController.m */; };
 		65B162881F67BC99004174F3 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B162871F67BC99004174F3 /* BuilderViewController.m */; };
 		65DD5A721F6674C3003F9D31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A711F6674C3003F9D31 /* main.m */; };
 		65DD5A751F6674C3003F9D31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD5A741F6674C3003F9D31 /* AppDelegate.m */; };
@@ -48,6 +50,10 @@
 		6532F7DE1F7CEE1E003FF9C4 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
 		6532F7E01F7DE921003FF9C4 /* ChasingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
 		6532F7E11F7DE921003FF9C4 /* ChasingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
+		6532F7E41F7E3867003FF9C4 /* SingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		6532F7E51F7E3867003FF9C4 /* SingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		6532F7E71F7E5CC6003FF9C4 /* AdapteeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapteeViewController.h; sourceTree = "<group>"; };
+		6532F7E81F7E5CC6003FF9C4 /* AdapteeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapteeViewController.m; sourceTree = "<group>"; };
 		65B162861F67BC99004174F3 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
 		65B162871F67BC99004174F3 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
 		65DD5A6D1F6674C3003F9D31 /* NMDesignPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMDesignPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +116,24 @@
 			name = "建造者(builder)";
 			sourceTree = "<group>";
 		};
+		6532F7E31F7E3834003FF9C4 /* 单例(Singleton) */ = {
+			isa = PBXGroup;
+			children = (
+				6532F7E41F7E3867003FF9C4 /* SingletonViewController.h */,
+				6532F7E51F7E3867003FF9C4 /* SingletonViewController.m */,
+			);
+			name = "单例(Singleton)";
+			sourceTree = "<group>";
+		};
+		6532F7EA1F7E5CDA003FF9C4 /* 适配器(Adaptee) */ = {
+			isa = PBXGroup;
+			children = (
+				6532F7E71F7E5CC6003FF9C4 /* AdapteeViewController.h */,
+				6532F7E81F7E5CC6003FF9C4 /* AdapteeViewController.m */,
+			);
+			path = "适配器(Adaptee)";
+			sourceTree = "<group>";
+		};
 		65DD5A641F6674C3003F9D31 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +162,8 @@
 				65DD5A761F6674C3003F9D31 /* ViewController.h */,
 				65DD5A771F6674C3003F9D31 /* ViewController.m */,
 				65DD5A791F6674C3003F9D31 /* Main.storyboard */,
+				6532F7EA1F7E5CDA003FF9C4 /* 适配器(Adaptee) */,
+				6532F7E31F7E3834003FF9C4 /* 单例(Singleton) */,
 				6532F7D61F7CDBB4003FF9C4 /* 建造者(builder) */,
 				65DD5A7C1F6674C3003F9D31 /* Assets.xcassets */,
 				65DD5A7E1F6674C3003F9D31 /* LaunchScreen.storyboard */,
@@ -312,6 +338,8 @@
 				65B162881F67BC99004174F3 /* BuilderViewController.m in Sources */,
 				6532F7DC1F7CE86A003FF9C4 /* CharacterBuilder.m in Sources */,
 				6532F7D91F7CE725003FF9C4 /* Character.m in Sources */,
+				6532F7E91F7E5CC6003FF9C4 /* AdapteeViewController.m in Sources */,
+				6532F7E61F7E3867003FF9C4 /* SingletonViewController.m in Sources */,
 				65DD5A781F6674C3003F9D31 /* ViewController.m in Sources */,
 				65DD5A751F6674C3003F9D31 /* AppDelegate.m in Sources */,
 				65DD5A721F6674C3003F9D31 /* main.m in Sources */,
